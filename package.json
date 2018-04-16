@@ -1,0 +1,19 @@
+{
+  "name": "drum-machine",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://bryan0767.github.io/drum-machine/",
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+     "predeply": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
